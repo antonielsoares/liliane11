@@ -6,10 +6,15 @@
 .container{
     margin: 0 40px;
 }
+a{text-decoration: none;}
+
 .clear{clear: both;}
 /*******************************************/
 header{
     background-color: #33ff14;
+}
+header img{
+    margin: 5px 0;
 }
 .menu-mobile{
     display: none;
@@ -49,6 +54,7 @@ header{
 }
 /******************************************************/
 .menu-desktop{
+    margin-top: 6px;
     float: right;
 }
 .menu-desktop ul{
@@ -75,6 +81,7 @@ header{
     width: 50%;
 }
 .box-txt h2{
+    text-transform: uppercase;
     padding-bottom: 20px ;
     color: orange;
     font-size: 34px;
@@ -87,7 +94,11 @@ header{
     background-color: #33ff14;
     font-size: 22px;
 }
-
+/**********************************/
+.galeria-img img{
+    width: 262px;
+    margin: 30px 55px;
+}
 
 
 
