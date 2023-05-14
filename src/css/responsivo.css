@@ -1,0 +1,55 @@
+/**************** TAMANHOS DE MEDIA 760, 590-PX **********************/
+
+
+
+@media screen and (max-width: 760px){
+/**************** AQUI COMEÇA NOSSO SITE **********************/
+    nav.menu-mobile{  
+        display: block;
+    }
+    .menu-desktop{
+        display: none;
+    }
+    
+/***************************** PERFIL *****************************/
+    .perfil{
+        
+        display: flex;
+        background-color: #f2f3f1;
+        margin: 50px auto;
+        
+    }
+    .perfil > .container{
+        width: 600px;
+    }
+
+}    
+@media screen and (max-width: 590px){
+    /***************************** SERVIÇOS *****************************/
+    
+    section.servicos > .container{
+        flex-direction: column;
+    }
+    
+    .box-servicos p{
+        font-size: 12px;
+        padding: -10px 0;
+        
+    }
+    /***************************** PERFIL *****************************/
+    .perfil {
+        display: none;
+    }
+    .perfil img{
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .perfil > .container{
+        width: 300px;
+    }
+    .txt-perfil{
+        float: none;
+        margin: 0 -13px;
+    }
+}    
+    

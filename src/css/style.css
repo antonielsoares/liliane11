@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body,html{
+    height: 100%;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 5%;
+}
+.clear{
+    clear: both;
+}
+
+/**************** AQUI COMEÇA NOSSO SITE **********************/
+header{
+    display: flex;
+    padding: 10px 0;
+    background-color: aliceblue;
+}
+.logo{
+    float: left; 
+}
+nav.menu-mobile{
+    float: right;
+    cursor: pointer;
+    margin-right: -6px;
+    display: none;
+    width: 43px;
+    height: 32px;
+    background-image: url(../imagens/menu-1.png);
+    background-size: 100% 100%;
+}
+.menu-desktop{
+    margin: 22px 0;
+    float: right;
+    
+    
+}
+nav a{
+    margin: 0 22px;
+    text-decoration: none;
+}
+/***************************** MOSAICO *****************************/
+.mosaico{
+    margin-top: 23px;
+    width: 93%;
+}
+.mosaico-wraper{
+    margin-left: -2%;
+}
+.img-mosaico {
+    float: left;
+    width: 20%;
+    padding: 9%;
+    border: 3px solid white;
+    background-color:#39ff14;
+}
+/***************************** SERVIÇOS *****************************/
+section.servicos{
+    margin-top: 33px;
+    display: flex;
+    width: 100%;
+}
+section.servicos > .container{
+    display: flex;
+    margin: -80px auto 0 auto;
+    padding: 0 13px;
+    max-width: 800px;
+    align-items: center;
+    text-align: center;
+}
+.box-servicos img{
+    width: 84px;
+    margin: -29px 0 -10px 0;
+}
+
+.box-servicos:nth-of-type(1){
+    
+    color: aliceblue;
+    background-color: blueviolet;
+    border: 3px solid white;
+    height: 171px;
+    width: 265px;
+}
+.box-servicos:nth-of-type(2){
+    padding: 32px 0;
+    color: aliceblue;
+    background-color: rgb(167, 87, 241);
+    height: 211px;
+    width: 315px;
+}
+.box-servicos:nth-of-type(3){
+    
+    color: aliceblue;
+    background-color: blueviolet;
+    border: 3px solid white;
+    height: 171px;
+    width: 265px;
+}
+.box-servicos h2{
+    margin: 20px 0;
+}
+/***************************** PERFIL *****************************/
+.perfil{
+    
+    display: flex;
+    background-color: #f2f3f1;
+    margin: 50px auto;
+       
+}
+.perfil > .container{
+    max-width: 700px;
+    margin: 22px auto;
+}
+.perfil img{
+    width: 265px;
+}
+.txt-perfil{
+    float: right;
+    width: 324px;
+    height: 433px;
+    text-align: center;
+    border: 3px solid white;
+    padding: 10px 10px;
+}
+.txt-perfil h2{
+    margin: 33px 0;
+    
+}
+/***************************** VIDEOS *****************************/
+.videos{
+    display: flex;
+    width: 100%;
+    height: 154px;
+    background-color: aqua;
+}
+.videos video{
+    width: 122px;
+}
