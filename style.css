@@ -33,6 +33,7 @@ header{
     left: 0;
 }
 .menu-mobile:hover ul{
+    z-index: 999;
     opacity: 1;
     
 }
