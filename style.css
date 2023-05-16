@@ -6,6 +6,10 @@
 .container{
     margin: 0 40px;
 }
+body,html{
+    background-color: #33ff14;
+    height: auto;
+}
 a{text-decoration: none;}
 
 .clear{clear: both;}
@@ -53,6 +57,9 @@ header img{
     color: black;
     background-color: rgb(240, 201, 128);
 }
+.menu-mobile a{
+    color: white;
+}
 /******************************************************/
 .menu-desktop{
     z-index: 999;
@@ -99,6 +106,8 @@ header img{
 
 /********************************************/
 .box{
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
     background-image: url(./belem.jpg);
     background-size: cover;
     width: 100%;
@@ -166,5 +175,13 @@ header img{
     }
     .box-txt p{
         width: auto;
+    }
+
+
+
+    footer{
+        text-align: center;
+        margin: 40px 0;
+        font-style: oblique;
     }
 }
