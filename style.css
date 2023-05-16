@@ -169,6 +169,9 @@ header img{
     
 }
 @media screen and (max-width: 540px) {
+    .box{
+        height: 366px;
+    }
     .box-txt h2{
         font-size: 33px;
         text-align: center;
