@@ -169,9 +169,10 @@ header img{
     
 }
 @media screen and (max-width: 540px) {
-    .box{
-        height: 366px;
+    .box-txt{
+        margin-top: 73px;
     }
+    
     .box-txt h2{
         font-size: 33px;
         text-align: center;
@@ -183,8 +184,9 @@ header img{
 
 
     footer{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
         margin: 40px 0;
-        font-style: oblique;
+        font-style: normal;
     }
 }
