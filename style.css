@@ -103,6 +103,9 @@ header img{
     margin: 20px 22px;
     list-style: none;
 }
+.menu-desktop a{
+    color: black;
+}
 
 /********************************************/
 .box{
@@ -137,6 +140,16 @@ header img{
 .galeria-img img{
     width: 262px;
     margin: 30px 55px;
+}
+
+
+
+
+footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 40px 0;
+    font-style: normal;
 }
 
 
